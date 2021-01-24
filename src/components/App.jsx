@@ -5,7 +5,7 @@ import emojipedia from "../emojipedia";
 function createEmojipedia(emojiinfo) {
   return (
     <EmojiDictionary
-      id={emojiinfo.id}
+      key={emojiinfo.id}
       emoji={emojiinfo.emoji}
       name={emojiinfo.name}
       meaning={emojiinfo.meaning}
